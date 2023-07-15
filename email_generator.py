@@ -1,7 +1,7 @@
 from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
 
-llm = OpenAI(openai_api_key='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',temperature=0.0)
+llm = OpenAI(openai_api_key='API Key',temperature=0.0)
 prompt = PromptTemplate(
     input_variables=['content', 'customer_name', 'agent_name'],
     template="""
